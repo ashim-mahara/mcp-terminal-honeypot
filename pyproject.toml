@@ -1,0 +1,16 @@
+[project]
+name = "mcp-terminal-honeypot"
+version = "0.1.0"
+description = "A honeypot for PyAGTerm"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docker>=7.1.0",
+    "nest-asyncio>=1.6.0",
+    "openai-agents>=0.9.2",
+    "openai-harmony>=0.0.8",
+    "py-agterm",
+]
+
+[tool.uv.sources]
+py-agterm = { git = "https://github.com/ashim-mahara/py-agterm" }

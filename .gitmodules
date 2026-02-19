@@ -1,0 +1,3 @@
+[submodule "py-agterm"]
+	path = py-agterm
+	url = https://github.com/ashim-mahara/py-agterm
