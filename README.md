@@ -1,5 +1,7 @@
 # Terminal MCP Server Honeypot
 
+> [Accompanying Blog](https://www.ashimmahara.com/blog/terminal_mcp_honeypot/)
+
 ## Overview
 
 I wanted to explore `docker diff` so I made this simple honeypot for a typical terminal mcp server. Currently it only extracts file artifacts from the server. There is support for excluding paths and file extensions (simple not magic headers).
